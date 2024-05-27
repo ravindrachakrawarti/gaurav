@@ -1,0 +1,62 @@
+  
+  .jimage{
+    background:linear-gradient(rgba(0,0,0,.8),rgba(32, 32, 32, 0.8)),url('../component/img/bg-image.png');
+    height:100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+   
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color:none;
+    color: #fff;
+   width: 100%;
+  }
+  
+  .nav-link{
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+  
+  }
+  
+  .nav-links {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  
+  .nav-item {
+    margin-left: 1rem;
+  }
+  
+  .nav-item a {
+    text-decoration: none;
+    color: inherit;
+    padding: 0.5rem;
+  }
+  
+  .nav-item a:hover {
+    color: #ccc;
+  }
+  
+  .nav-item.active {
+    border-bottom: 2px solid #fff;
+  }
+  
+  .logo {
+    max-width: 100px;
+  }
+  .imge{
+    border-radius: 5%;
+    height: 60px;
+  
+  }

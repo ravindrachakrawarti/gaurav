@@ -1,0 +1,26 @@
+.custom-card {
+    transition: transform 0.3s;
+    position: relative;
+    align-items: center;
+    background-color: #00193c!important
+    
+  }
+  
+  .custom-card:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+  }
+  .arrow-right {
+    position: absolute;
+    bottom: 15px;
+    
+    color: #00cccc;
+  }
+  body{
+    background-color: #f1f3f7
+  }
+  .font-color{
+    color: #ffff!important
+  }
+
+ 
